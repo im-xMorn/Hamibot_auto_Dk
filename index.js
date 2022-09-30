@@ -4,11 +4,23 @@ sleep(1000);
 // 上滑
 swipe(369, 1222, 342, 308, 400)
 // 解锁
-var pwds = "5050"; // 锁屏密码
+var pwds = "xxxx"; // 锁屏密码
 for(var i = 0; i < 4; i++)
 {
   sleep(500)
   switch(pwds[i]-0){
+    case 1:
+      press(357,1172,100);
+      break;
+    case 2:
+      press(357,1172,100);
+      break;
+    case 3:
+      press(357,1172,100);
+      break;
+    case 4:
+      press(357,1172,100);
+      break;
     case 5:
       press(357,1172,100);
       break;
