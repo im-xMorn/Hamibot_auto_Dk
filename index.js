@@ -1,3 +1,9 @@
+"""
+    @js:Hamibot_微信疫情自动打卡脚本
+    @author:iCdo_X.
+    @注：本脚本仅为个人提供技术经验！
+"""
+
 // 唤醒屏幕
 device.wakeUp();
 sleep(1000);
